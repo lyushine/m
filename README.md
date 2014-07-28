@@ -6,4 +6,4 @@ Pit the front of mobile development
 
 ##除第一页外JS事件不能触发（**android下微信**）
 
-对有需要出发JS事件的元素其CSS属性里增加 **-webkit-transform: translate3d(0,0,0)** 方可解决
+对有需要触发JS事件的元素其CSS属性里增加 **-webkit-transform: translate3d(0,0,0)** 方可解决
