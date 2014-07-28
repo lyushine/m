@@ -34,4 +34,8 @@ var music = {
 music.create();
 music.play();   //播放
 music.stop();   //暂停
+
+-------
+
+然后在适当的地方   music.play();  播放。
 </pre>
