@@ -13,7 +13,7 @@ Pit the front of mobile development
 audio的autoplay属性无法生效，系统为用户手机节省流量默认行为。 如果需要预加载则从代码逻辑上先播放后迅速暂停播放从而实现触发播放行为而实现预加载，实际意义上则不会出现声音播放。
 
 如：
-‘music = {
+    music = {
     obj:null,
     create:function(){
         music.obj =  new Audio();
