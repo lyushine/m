@@ -14,22 +14,22 @@ audio的autoplay属性无法生效，系统为用户手机节省流量默认行�
 
 如：
     music = {
-    obj:null,
-    create:function(){
-        music.obj =  new Audio();
-        music.obj.preload= 'auto';
-        music.obj.type = 'audio/mpeg';
-        var source = document.createElement('source');
-        source.src = 'http://mobilegame.tencent.com/act/a20140723invite/crack.mp3';
-        music.obj.appendChild(source);
-    },
-    play:function(){
-        music.obj.play();
-    },
-    stop:function(){
-        music.obj.pause();
-    }
-};
-music.create();
-**music.play()**;
-**music.stop()**;’
+        obj:null,
+        create:function(){
+            music.obj =  new Audio();
+            music.obj.preload= 'auto';
+            music.obj.type = 'audio/mpeg';
+            var source = document.createElement('source');
+            source.src = 'http://mobilegame.tencent.com/act/a20140723invite/crack.mp3';
+            music.obj.appendChild(source);
+        },
+        play:function(){
+            music.obj.play();
+        },
+        stop:function(){
+            music.obj.pause();
+        }
+    };
+    music.create();
+    **music.play()**;
+    **music.stop()**;
